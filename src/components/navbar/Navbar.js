@@ -6,6 +6,8 @@ import './navbar.css';
 const Menu = () => {
     return (
         <>
+            <p><a href="#blog">Amita</a></p>
+            
             <p><a href="#home">Home</a></p>
             <p><a href="#wgpt3">What is GPT?</a></p>
             <p><a href="#possibility">Open AI</a></p>
@@ -35,11 +37,11 @@ const Navbar = () => {
             </div>
             <div className="gpt3__navbar-menu">
                 {toggleMenu
-                    ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-                    : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+                    ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
+                    : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className="gpt3__navbar-menu_container scale-down-center">
+                    <div className="gpt3__navbar-menu_container scale-up-center">
                         <div className="gpt3__navbar-menu_container-links">
                             <Menu />
                             <div className="gpt3__navbar-menu_container-links-sign">
