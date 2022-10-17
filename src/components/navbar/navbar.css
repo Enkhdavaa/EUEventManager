@@ -7,7 +7,7 @@
 }
 
 .gpt3__navbar-links {
-    flex: 1;
+    flex: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -36,13 +36,13 @@
 .gpt3__navbar-sign p,
 .gpt3__navbar-links_container p {
     color: rgb(4, 4, 4);
-    font-family: var(--font-family);
+    font-family: 'Arquitecta', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 25px;
     text-transform: capitalize;
-
-    margin: 0 1rem;
+    
+    margin: 0 1.5rem;
     cursor: pointer;
 }
 
