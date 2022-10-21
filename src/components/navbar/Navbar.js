@@ -33,7 +33,6 @@ const Navbar = () => {
             <div className="gpt3__navbar-sign">
                 <p> SIGN IN </p>
             </div>
-            {/* TODO: Please note that the below code is not usable enough */}
             <div className="gpt3__navbar-menu">
                 {toggleMenu
                     ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
