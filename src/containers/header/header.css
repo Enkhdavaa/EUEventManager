@@ -10,3 +10,14 @@
     display: flex;
     width: 100%;
 }
+
+.amimoves__header-onPicText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.amimoves__header-onPicText h1, h2{
+    display: flex;
+}
