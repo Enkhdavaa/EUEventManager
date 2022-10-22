@@ -2,22 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 1rem 0rem;
 }
 
-.amimoves__header img{
-    display: flex;
+.amimoves__header-backgroundImage{
+    max-height: 500px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.amimoves__header-backgroundImage img{
     width: 100%;
+    height: auto;
 }
 
 .amimoves__header-onPicText{
     position: absolute;
-    top: 50%;
+    align-items: center;
+    text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.amimoves__header-onPicText h1, h2{
-    display: flex;
 }
