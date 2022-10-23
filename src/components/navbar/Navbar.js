@@ -10,9 +10,9 @@ const Menu = () => {
     const size = 25;
     return (
         <>
-            <p> <VscCompass color="#000" size={size} /> Explore </p>
-            <p> <AiOutlineShopping color="#000" size={size} /> Shop </p>
-            <p> <SlPeople color="#000" size={size} /> Instructors </p>
+            <p className="hover-underline-animation"> <VscCompass color="#000" size={size} /> Explore </p>
+            <p className="hover-underline-animation"> <AiOutlineShopping color="#000" size={size} /> Shop </p>
+            <p className="hover-underline-animation"> <SlPeople color="#000" size={size} /> Instructors </p>
         </>
     )
 }
