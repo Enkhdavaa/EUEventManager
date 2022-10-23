@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 1rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .gpt3__navbar-links {
@@ -38,7 +37,7 @@
     color: rgb(4, 4, 4);
     font-family: 'Arquitecta', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 25px;
     text-transform: capitalize;
     

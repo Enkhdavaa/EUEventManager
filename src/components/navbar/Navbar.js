@@ -7,11 +7,12 @@ import logo from '../../assets/ai.png';
 import './navbar.css';
 
 const Menu = () => {
+    const size = 25;
     return (
         <>
-            <p> <VscCompass color="#000" size={40} /> Explore </p>
-            <p> <AiOutlineShopping color="#000" size={40} /> Shop </p>
-            <p> <SlPeople color="#000" size={40} /> Instructors </p>
+            <p> <VscCompass color="#000" size={size} /> Explore </p>
+            <p> <AiOutlineShopping color="#000" size={size} /> Shop </p>
+            <p> <SlPeople color="#000" size={size} /> Instructors </p>
         </>
     )
 }

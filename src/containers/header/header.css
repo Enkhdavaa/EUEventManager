@@ -2,22 +2,64 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 1rem 0rem;
+    position: relative;
 }
 
-.amimoves__header img{
-    display: flex;
+.amimoves__header-backgroundImage{
+    max-height: 500px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.amimoves__header-backgroundImage img{
     width: 100%;
+    height: auto;
 }
 
 .amimoves__header-onPicText{
     position: absolute;
-    top: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 }
 
-.amimoves__header-onPicText h1, h2{
-    display: flex;
+.amimoves__header-onPicText h1{
+    font-family: 'Arquitecta', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0 1.5rem;
+}
+
+.amimoves__header-onPicText h2{
+    font-family: 'Arquitecta', sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.amimoves__header-onPicText button{
+    font-family: 'Arquitecta', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0.7rem 1.7rem;
+    text-transform: uppercase;
+}
+
+.amimoves__header-onPicText p{
+    font-family: 'Arquitecta', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 3rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 550px){
+    .amimoves__header-onPicText{
+        display: none;
+    }
 }
