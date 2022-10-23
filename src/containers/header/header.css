@@ -47,6 +47,14 @@
     font-size: 20px;
     padding: 0.7rem 1.7rem;
     text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+.amimoves__header-onPicText button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 54, 54);
+    transition: 0.3s;
 }
 
 .amimoves__header-onPicText p{
